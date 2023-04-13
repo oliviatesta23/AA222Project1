@@ -13,8 +13,11 @@ Example command-line usage:
 """
 
 # Include the other relevant files:
-include(joinpath("project1_jl", "helpers.jl"))
-include(joinpath("project1_jl", "project1.jl"))
+#include(joinpath("project1_jl", "helpers.jl"))
+#include(joinpath("project1_jl", "project1.jl"))
+include("/Users/oliviatesta/Desktop/AA222/Trials/AA222Project1/project1_jl/helpers.jl")
+include("/Users/oliviatesta/Desktop/AA222/Trials/AA222Project1/project1_jl/project1.jl")
+
 
 if length(ARGS) == 0
     # Default
